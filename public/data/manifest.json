@@ -1,0 +1,66 @@
+{
+  "scenarios": [
+    {
+      "id": "mediterranean-powers",
+      "title": "Mediterranean powers",
+      "category": "Historical",
+      "subtitle": "Three powers. A changing world.",
+      "description": "An illustrative journey through the Punic era.",
+      "defaultSnapshotId": "med-264",
+      "snapshots": [
+        {
+          "id": "med-264",
+          "year": -264,
+          "label": "Rivals across the sea",
+          "description": "A growing republic meets a maritime power. Explore a schematic Mediterranean on the eve of the Punic conflicts.",
+          "dataFile": "/data/scenarios/mediterranean-264.json"
+        },
+        {
+          "id": "med-218",
+          "year": -218,
+          "label": "The Second Punic War",
+          "description": "Rome and Carthage face one another across the Mediterranean, while Macedon watches a shifting balance of power.",
+          "dataFile": "/data/scenarios/mediterranean-218.json"
+        },
+        {
+          "id": "med-201",
+          "year": -201,
+          "label": "A new balance of power",
+          "description": "The map changes after conflict. Rome’s reach grows, Carthage’s contracts, and the Hellenistic world endures.",
+          "dataFile": "/data/scenarios/mediterranean-201.json"
+        }
+      ]
+    },
+    {
+      "id": "eurasian-empires",
+      "title": "Eurasian empires",
+      "category": "Historical",
+      "subtitle": "From the steppe to the city.",
+      "description": "An illustrative journey across medieval Eurasia.",
+      "defaultShapshotId": "eur-1206",
+      "snapshots": [
+        {
+          "id": "eur-1206",
+          "year": 1206,
+          "label": "A steppe confederation emerges",
+          "description": "From the Mongolian steppe to the cities of China and northern India, explore three distinct political worlds.",
+          "dataFile": "/data/scenarios/eurasia-1206.json"
+        },
+        {
+          "id": "eur-1227",
+          "year": 1227,
+          "label": "An empire takes shape",
+          "description": "A schematic snapshot of expanding steppe influence alongside the Song and the Delhi Sultanate.",
+          "dataFile": "/data/scenarios/eurasia-1227.json"
+        },
+        {
+          "id": "eur-1260",
+          "year": 1260,
+          "label": "Across a connected continent",
+          "description": "Continental connections deepen as Mongol rule expands. These shapes suggest change rather than precise frontiers.",
+          "dataFile": "/data/scenarios/eurasia-1260.json"
+        }
+      ]
+    }
+  ]
+}
